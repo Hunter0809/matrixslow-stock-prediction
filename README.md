@@ -116,8 +116,10 @@ def backward(self, result):
 $$C = A \times B$$
 
 反向传播（雅可比矩阵）：
-- 对A的导数：$\frac{\partial C}{\partial A} = B^T$
-- 对B的导数：$\frac{\partial C}{\partial B} = A^T$
+- 对A的导数：
+  $$\frac{\partial C}{\partial A} = B^T$$
+- 对B的导数：
+  $$\frac{\partial C}{\partial B} = A^T$$
 
 #### 2.2 激活函数
 
@@ -134,7 +136,9 @@ $$\tanh'(x) = 1 - \tanh^2(x)$$
 **ReLU函数**：
 $$\text{ReLU}(x) = \max(0, x)$$
 导数：
-$$\text{ReLU}'(x) = \begin{cases} 1 & \text{if } x > 0 \\ 0 & \text{if } x \leq 0 \end{cases}$$
+
+$$\text{ReLU}'(x) = \begin{cases} 1 & \text{if } x > 0 \\
+0 & \text{if } x \leq 0 \end{cases}$$
 
 ## 🧠 神经网络模型原理
 
@@ -163,7 +167,7 @@ $$h_t = o_t \odot \tanh(c_t)$$
 其中：
 - $\sigma$ 表示Sigmoid函数
 - $\odot$ 表示元素级乘法
-- $W_*$ 表示权重矩阵，$b_*$ 表示偏置向量
+- $W$ 表示权重矩阵，$b$ 表示偏置向量
 
 ### 2. RNN（循环神经网络）
 
