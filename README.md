@@ -38,7 +38,7 @@ tqdm >= 4.62.0
 
 ```bash
 # 1. 克隆项目
-git clone <项目地址>
+git clone https://github.com/Hunter0809/matrixslow-stock-prediction.git
 cd matrixslow-stock-prediction
 
 # 2. 安装依赖
