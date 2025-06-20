@@ -153,6 +153,7 @@ $$i_t = \sigma(W_{ii}x_t + W_{hi}h_{t-1} + b_i)$$
 $$f_t = \sigma(W_{if}x_t + W_{hf}h_{t-1} + b_f)$$
 
 #### 候选记忆 (Candidate Memory)
+
 $$\tilde{c}_t = \tanh(W_{ig}x_t + W_{hg}h_{t-1} + b_g)$$
 
 #### 输出门 (Output Gate)
