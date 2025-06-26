@@ -1,4 +1,4 @@
-# 基于MatrixSlow框架的股票时序预测模型研究与实现
+![all_models_mae_comparison](https://github.com/user-attachments/assets/f217bf0b-7e36-4fef-ae7a-6ad8474c07e6)# 基于MatrixSlow框架的股票时序预测模型研究与实现
 
 ## 📋 项目概述
 
@@ -395,6 +395,8 @@ predictions = predict_with_model(lstm, 'lstm', X_test, output_layer)
    - 解决：降低学习率，使用Adam优化器
 
 ## 📊 实验结果分析
+![all_models_mae_comparison](https://github.com/user-attachments/assets/34d6e706-4fe0-4073-a541-7ace5abacb55)
+
 
 根据实际实验结果，各模型性能对比如下：
 
