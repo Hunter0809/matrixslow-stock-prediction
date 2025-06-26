@@ -437,9 +437,9 @@ predictions = predict_with_model(lstm, 'lstm', X_test, output_layer)
 - MLP模型虽然收敛快，但泛化能力有限
 
 ## 👨‍💻 作者信息
-
-- 课程：基于Python的深度学习框架实现
 - 学校：深圳大学
+- 班级：卓越AI人才培养特色班
+- 课程：基于Python的深度学习框架实现
 - 时间：2025年6月
 
 ## 📄 License
