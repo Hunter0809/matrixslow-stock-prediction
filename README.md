@@ -1,5 +1,3 @@
-![all_models_mae_comparison](https://github.com/user-attachments/assets/f217bf0b-7e36-4fef-ae7a-6ad8474c07e6)# 基于MatrixSlow框架的股票时序预测模型研究与实现
-
 ## 📋 项目概述
 
 本项目基于自主实现的深度学习框架 **MatrixSlow** 构建了一个完整的股票开盘价预测系统。该项目是深圳大学"基于Python的深度学习框架实现"的课程设计作品，完整实现了课程设计的所有要求。
