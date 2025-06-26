@@ -65,7 +65,7 @@ matrixslow-stock-prediction/
 ├── visualization.py           # 可视化和分析工具
 ├── main.py                    # 主程序入口
 ├── Daily_ZX.csv              # 中兴股票数据
-└── README.md                  # 本文件
+└── README.md                  # 解释性文件
 ```
 
 ## 🔬 MatrixSlow框架原理
